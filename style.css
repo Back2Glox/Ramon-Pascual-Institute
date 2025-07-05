@@ -1,0 +1,14 @@
+body { background-color: #0B1B48; color: #00FFFF; font-family: 'Poppins', sans-serif; margin: 0; padding: 0; }
+
+header, footer { background-color: rgba(0, 0, 0, 0.35); text-align: center; padding: 20px 0; }
+
+header h1 { color: #FFE265; margin: 0; }
+
+nav a { color: #00FFFF; text-decoration: none; margin: 0 15px; font-weight: bold; }
+
+gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; padding: 20px; }
+
+gallery img { width: 100%; border-radius: 10px; object-fit: cover; }
+
+footer p { color: #00FFFF; margin: 0; }
+
