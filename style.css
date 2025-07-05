@@ -1,22 +1,22 @@
-/* Apply Poppins font and fix colors/alignments */
+/* style.css */
 
-body { font-family: 'Poppins', sans-serif; background-color: #0B1B48; color: #FFFFFF; margin: 0; padding: 0; }
+body { background-color: #0B1B48; color: white; font-family: 'Poppins', sans-serif; margin: 0; padding: 0; }
 
-header { background-color: rgba(0, 0, 0, 0.35); text-align: center; padding: 20px 0; }
+header { background-color: rgba(0, 0, 0, 0.35); text-align: center; padding: 20px; }
 
-header img { height: 100px; }
+header img { width: 120px; height: auto; margin-bottom: 10px; }
 
-header h1 { color: #FFE265; margin: 10px 0 5px; }
+header h1 { color: #FFE265; margin: 0; }
 
-nav { margin-top: 10px; }
+nav { background-color: rgba(0, 0, 0, 0.35); text-align: center; padding: 10px; }
 
-nav a { color: #00FFFF; text-decoration: none; margin: 0 15px; }
+nav a { color: #00FFFF; margin: 0 15px; text-decoration: none; }
 
-nav a:hover { text-decoration: underline; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; padding: 20px; }
 
-footer { background-color: rgba(0, 0, 0, 0.35); text-align: center; padding: 15px 0; position: relative; }
+.gallery img { width: 100%; aspect-ratio: 3/2; object-fit: cover; border-radius: 15px; }
+
+footer { background-color: rgba(0, 0, 0, 0.35); text-align: center; padding: 15px; color: white; }
 
 footer a { color: #00FFFF; font-style: italic; text-decoration: none; }
-
-footer a:hover { text-decoration: underline; }
 
