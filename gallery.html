@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramon Pascual Institute - Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0B1B48;
+      color: #FFFFFF;
+      font-family: 'Poppins', sans-serif;
+    }
+    header, footer {
+      background-color: rgba(0, 0, 0, 0.35);
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      color: #FFE265;
+      margin: 0;
+    }
+    nav a {
+      color: #00FFFF;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      aspect-ratio: 3/2;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #00FFFF;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RAMON PASCUAL INSTITUTE</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Events</a>
+      <a href="#">History</a>
+      <a href="#">Gallery</a>
+      <a href="#">Victor Ian Townsend</a>
+    </nav>
+  </header>  <main>
+    <section class="gallery">
+      <img src="pic1.jpg" alt="Gallery Image 1">
+      <img src="pic2.jpg" alt="Gallery Image 2">
+      <img src="pic3.jpg" alt="Gallery Image 3">
+      <img src="pic4.jpg" alt="Gallery Image 4">
+      <img src="pic5.jpg" alt="Gallery Image 5">
+      <img src="pic6.jpg" alt="Gallery Image 6">
+      <!-- Add more as needed -->
+    </section>
+  </main>  <footer>
+    <p>Website built by Victor Ian Townsend</p>
+  </footer>
+</body>
+</html>
